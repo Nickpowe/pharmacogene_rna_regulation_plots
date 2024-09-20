@@ -4,16 +4,32 @@
 <h1> Data and file types used for the plots </h1>
 <a href="https://nickpowe.github.io/pharmacogene_rna_regulation_plots/info/example_plot.pdf" target="_blank"> example plot </a> <br> 
 <h3> RNA-seq </h3>
-  <p> blah <p>
-<p> mir-eCLIP </p>
-<p> defining the UTRs </p>
-<p> seed matching </p>
-<p> SHAPE </p>
-<p> m6a </p>
-<p> in silico folding computation (complementarity) </p>
+  <p> Poly-A selected mRNA from single donor hepatocytes sequenced and processed to bdg files for each gene. As an example, the CYP3A4 file is 8.2 MB. <p>
+<h3> mir-eCLIP </h3>
+    <p> chimeric mRNA-miRNA hybrids are sequenced and processed to bdg files for each gene for each microRNA. As an example, for CYP3A4 for Run 2, there is a total chimeric file that is 21 KB, and 187 other files each corresponding to a unique miRNA (largest is for miR-122-5p at 9.5 KB). these are present for each run of mir-eCLIP. </p>
+<h3> mir-eCLIP runs </h3>
+  <p> Run 1 is 100-donor pooled hepatocytes, experiment executed by Eclipse Bioinnovations. </p>
+  <p> Run 2 is individual-donor hepatocytes, experiment executed by Eclipse Bioinnovations. </p>
+  <p> Run 3 is individual-donor hepatocytes, experiment executed by Skaar lab using Eclipse Kit. </p>
+  <p> Run 4 is individual-donor hepatocytes, experiment executed by Eclipse Bioinnovations. </p>
+  <p> Run 5 is individual-donor hepatocytes, experiment executed by Eclipse Bioinnovations, using gene-specific pulldowns for CYP3A4, PXR (NR1I2), CYP2B6, CYP2C19, and CYP2D6 (Immunoprecipitation library 1). </p>
+  <p> Run 6 is individual-donor hepatocytes, experiment executed by Eclipse Bioinnovations, using gene-specific pulldowns for CYP3A4, PXR (NR1I2), CYP2B6, CYP2C19, and CYP2D6 (Immunoprecipitation library 2). </p>
+  <p> Run 7 is individual-donor hepatocytes, experiment executed by Skaar lab using Eclipse Kit. </p>
+  <p> Run 8 is individual-donor hepatocytes, experiment executed by Skaar lab using Eclipse Kit. </p>
+<h3> seed matching </h3>
+  <p> </p>
+<h3> SHAPE </h3>
+  <p> </p>
+<h3> m6a </h3>
+  <p> </p>
+<h3> in silico folding computation (complementarity) </p>
+  <p> </p>
 
-  
-<h2> test </h2>
+<h3> the x-axis </h3>
+  <p> all ensembl transcripts were merged so that all coordinates from any transcript isoform would be present. This is why some stretches appear blank in the plots. genetic coordinates for each gene are stored in txt files (CYP3A4 is 127 KB).  </p>
+<h3> defining the UTRs </h3>
+    <p> The UTRs are shown according to the canonical transcript. this is why some plots have space preceeding the 5' UTR. canonical coordinates are stored in txt files (CYP3A4 is 53 KB) </p>  
+
 
 </body>
 </html>
